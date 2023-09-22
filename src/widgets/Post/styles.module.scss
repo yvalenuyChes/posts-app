@@ -1,0 +1,28 @@
+.post{
+   width: 500px;
+   height: 250px;
+   padding: 20px;
+   margin: 20px 0;
+   border: 1px solid #000;
+   border-radius: 20px;
+   margin: 20px auto;
+
+   &__title{
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+   }
+
+   &__text{
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+       line-height: 20px;
+       height: 50px;
+   }
+
+   p{
+      padding: 10px 0;
+   }
+}

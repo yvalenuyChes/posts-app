@@ -1,0 +1,24 @@
+.container{ 
+
+   margin: 30px 0 0 0;
+
+   .button{
+      display: inline-block;
+      cursor: pointer;
+      width: 100px;
+      background-color: dodgerblue;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      transition: all .3s ease;
+      color: white;
+
+      &:hover{
+         background: rgb(4, 75, 146);
+      }
+   }
+
+   
+}
